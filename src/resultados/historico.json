@@ -1,0 +1,72 @@
+[
+    {
+        "valor1": 2,
+        "valor2": 42,
+        "operacao": "+",
+        "resultado": 44,
+        "data": "10/03/2026 12:30:43"
+    },
+    {
+        "valor1": 24232,
+        "valor2": 4243,
+        "operacao": "-",
+        "resultado": 19989,
+        "data": "10/03/2026 12:30:51"
+    },
+    {
+        "valor1": 232,
+        "valor2": 42,
+        "operacao": "+",
+        "resultado": 274,
+        "data": "10/03/2026 12:36:08"
+    },
+    {
+        "valor1": 23,
+        "valor2": 42,
+        "operacao": "+",
+        "resultado": 65,
+        "data": "10/03/2026 12:41:08"
+    },
+    {
+        "valor1": 23,
+        "valor2": 2,
+        "operacao": "+",
+        "resultado": 25,
+        "data": "10/03/2026 12:46:28"
+    },
+    {
+        "valor1": 1,
+        "valor2": 2,
+        "operacao": "-",
+        "resultado": -1,
+        "data": "10/03/2026 12:49:54"
+    },
+    {
+        "valor1": 2,
+        "valor2": 1,
+        "operacao": "/",
+        "resultado": 2.0,
+        "data": "10/03/2026 12:49:59"
+    },
+    {
+        "valor1": 23,
+        "valor2": 23,
+        "operacao": "+",
+        "resultado": 46,
+        "data": "10/03/2026 12:50:54"
+    },
+    {
+        "valor1": 23,
+        "valor2": 42,
+        "operacao": "**",
+        "resultado": 1558005952997140033806173725098810522409738596181909282129,
+        "data": "10/03/2026 12:50:59"
+    },
+    {
+        "valor1": 232,
+        "valor2": 42,
+        "operacao": "+",
+        "resultado": 274,
+        "data": "10/03/2026 13:26:54"
+    }
+]
