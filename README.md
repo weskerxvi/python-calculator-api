@@ -1,50 +1,56 @@
-Python Calculator API
+# 🧮 Python Calculator API
 
-Um projeto de calculadora desenvolvido em Python que possui interface de linha de comando (CLI), armazenamento de histórico de operações, sistema de logs, testes automatizados e uma API REST construída com FastAPI.
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-API-green)
+![Tests](https://img.shields.io/badge/tests-pytest-orange)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
-Este projeto foi criado para praticar fundamentos de engenharia de software como organização modular do código, manipulação de arquivos, testes, logging e desenvolvimento de APIs.
+Uma calculadora desenvolvida em **Python** com interface de linha de comando (CLI) e **API REST** utilizando **FastAPI**.
 
-🚀 Funcionalidades
+O projeto foi criado para praticar conceitos importantes de desenvolvimento como:
 
-Calculadora em linha de comando (CLI)
+* organização de projetos Python
+* manipulação de arquivos
+* criação de APIs
+* testes automatizados
+* logging
+* separação de camadas (CLI + API)
 
-Operações matemáticas básicas:
+---
 
-Adição
+# 🚀 Funcionalidades
 
-Subtração
+✔ Calculadora em **linha de comando (CLI)**
+✔ Operações matemáticas básicas
 
-Multiplicação
+* ➕ Adição
+* ➖ Subtração
+* ✖ Multiplicação
+* ➗ Divisão
+* 🔢 Potenciação
 
-Divisão
+✔ Histórico de operações salvo em **JSON**
+✔ Exportação de histórico
+✔ Sistema de **logs**
+✔ **API REST** com FastAPI
+✔ **Testes automatizados** com pytest
 
-Potenciação
+---
 
-Histórico de operações salvo em JSON
+# 🧠 Tecnologias Utilizadas
 
-Sistema de logs
+* Python
+* FastAPI
+* Uvicorn
+* Pytest
+* JSON
+* Logging (biblioteca padrão)
 
-API REST construída com FastAPI
+---
 
-Testes automatizados com pytest
+# 📂 Estrutura do Projeto
 
-Exportação do histórico de operações
-
-🧠 Tecnologias Utilizadas
-
-Python
-
-FastAPI
-
-Uvicorn
-
-Pytest
-
-JSON
-
-Logging (biblioteca padrão do Python)
-
-📂 Estrutura do Projeto
+```text
 calculator/
 │
 ├── src/
@@ -64,43 +70,81 @@ calculator/
 │
 ├── calculadora.py
 └── README.md
-⚙️ Instalação
+```
+
+---
+
+# ⚙️ Instalação
 
 Clone o repositório:
 
+```bash
 git clone https://github.com/seu-usuario/python-calculator-api.git
 cd python-calculator-api
+```
 
 Instale as dependências:
 
+```bash
 pip install fastapi uvicorn pytest
-🖥 Executando a Calculadora CLI
+```
+
+---
+
+# 🖥 Executando a Calculadora (CLI)
+
+```bash
 python calculadora.py
-🌐 Executando a API
+```
 
-Inicie o servidor da API:
+---
 
+# 🌐 Executando a API
+
+Inicie o servidor:
+
+```bash
 uvicorn src.api_web:app --reload
+```
 
-A API estará disponível em:
+A API ficará disponível em:
 
+```
 http://127.0.0.1:8000
+```
 
-Documentação interativa:
+Documentação automática:
 
+```
 http://127.0.0.1:8000/docs
-📡 Endpoints da API
-Método	Endpoint	Descrição
-GET	/	Status da API
-GET	/historico	Retorna o histórico de operações
-GET	/ultima	Retorna a última operação
-POST	/calcular	Realiza um cálculo
-🧪 Executando os Testes
+```
 
-Execute os testes com pytest:
+---
 
+# 📡 Endpoints da API
+
+| Método | Endpoint     | Descrição           |
+| ------ | ------------ | ------------------- |
+| GET    | `/`          | Status da API       |
+| GET    | `/historico` | Retorna o histórico |
+| GET    | `/ultima`    | Última operação     |
+| POST   | `/calcular`  | Realiza um cálculo  |
+
+---
+
+# 🧪 Testes
+
+Execute os testes com:
+
+```bash
 pytest
-📊 Exemplo de Histórico em JSON
+```
+
+---
+
+# 📊 Exemplo de Histórico
+
+```json
 [
   {
     "valor1": 10,
@@ -110,25 +154,30 @@ pytest
     "data": "2026-03-10"
   }
 ]
-📌 Objetivos de Aprendizado
+```
 
-Este projeto foi desenvolvido para praticar:
+---
 
-Estrutura de projetos em Python
+# 🎯 Objetivo do Projeto
 
-Manipulação de arquivos
+Este projeto foi desenvolvido com objetivo educacional para praticar:
 
-Tratamento de exceções
+* estruturação de projetos Python
+* desenvolvimento de APIs
+* manipulação de arquivos
+* testes automatizados
+* boas práticas de programação
 
-Sistema de logs
+---
 
-Desenvolvimento de APIs REST
+# 👨‍💻 Autor
 
-Testes automatizados
+**Rodrigo Santos**
 
-📜 Licença
+Desenvolvedor em aprendizado focado em **Python e Engenharia de Software**.
 
-Este projeto é open-source e está disponível sob a licença MIT.
-📜 License
+---
 
-This project is open-source and available under the MIT License.
+# 📜 Licença
+
+Este projeto está sob a licença MIT.
