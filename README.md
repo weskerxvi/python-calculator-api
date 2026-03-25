@@ -79,7 +79,7 @@ calculator/
 Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/python-calculator-api.git
+git clone https://github.com/weskerxvi/python-calculator-api.git
 cd python-calculator-api
 ```
 
